@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retinal-Eye-Disease-Detection</title>
+    <link href="{{ url_for('static', filename='css/style1.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style2.css') }}" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    
+</head>
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    
+   
+    <div class="header">
+
+        <header class="header-content" style="position: sticky;">
+            <a href="" class="logo">
+
+            <img src="{{ url_for('static', filename='./img/StudySyn.svg') }}" alt="" class="logo-icon"/>
+            <span class="logo-text">REDD</span>
+            </a>
+
+            <nav class="nav" style="position: sticky;">
+                <a href="#features" class="nav-link">Features</a>
+                <button class="menu-button">
+                    <img src="{{ url_for('static', filename='./img/Hamburger.svg') }}" alt="" class="menu-icon">
+    
+                </button>
+
+            </nav>
+
+            
+            <!-- <a href="#contact" class="content-button">Contact Us</a>
+            <button class="menu-button">
+                <img src="./img/Hamburger.svg" alt="" class="menu-icon">
+
+            </button> -->
+
+            
+        </header>
+
+    </div>
+    
+    <div id="home" style=" height: 100%; width: 100%; scroll-behavior: smooth;">
+        <div class="content">
+            <section class="main-section">
+
+                <div class="content-left">
+                    <p class="section-label">very proud to introduce</p>
+                    <h1 class="section-title">Retinal Eye Disease Detection
+                    </h1>
+                    <p class="section-desc"> Retinal eye disease detection involves using imaging techniques like OCT / fundus photography to capture detailed images of the retina. <br>These images are then analyzed for signs of diseases like diabetic retinopathy, age-related macular degeneration, and glaucoma. <br>AI algorithms are  used to assist in the analysis, helping to detect early signs of these diseases, which can be crucial for timely treatment and preventing vision loss.</p>
+
+
+                    <div class="button-group">
+                        <a href="/eye-prediction" class="start-button"> Take Tour</a>
+                        <!-- <a href="#tour" class="tour-button"> Take Tour</a> -->
+                    </div>
+                </div>
+
+                <div class="content-right">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='./img/eye.jpg') }}" alt="" class="sectionImage">
+                    </div>
+                </div> 
+            </section>
+        </div>
+    </div>
+
+    <div id="features" style=" height: 100%; width: 100%; scroll-behavior: smooth;">
+        <div class="feature_container">
+            <div class="feature-content">
+                <div class="main-info">
+                <h1 class="main-title">Our competitive advantage</h1>
+                <p class="feature-text"></p>
+                </div>
+
+                <div class="feature-grid">
+                    <!-- card1 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <img src="{{ url_for('static', filename='./img/PersonalizedLearn.svg') }}" alt="" class="feature-svg"/>
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                High Accuracy
+                            </div>
+                            <div class="feature-desc">
+                                Achieve high accuracy in retinal disease diagnosis through the integration of advanced imaging techniques and deep learning algorithms trained on extensive datasets.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <img src="{{ url_for('static', filename='./img/PersonalizedLearn.svg') }}" alt="" class="feature-svg"/>
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                Early Detection
+                            </div>
+                            <div class="feature-desc">
+                                Enable early detection of retinal diseases  improving patient outcomes through timely treatment.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <img src="{{ url_for('static', filename='./img/PersonalizedLearn.svg') }}" alt="" class="feature-svg"/>
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                            User friendly interface
+                            </div>
+                            <div class="feature-desc">
+                                A user-friendly interface is a software interface where the user can easily understand and navigate through the application in an efficient way.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <img src="{{ url_for('static', filename='./img/PersonalizedLearn.svg') }}" alt="" class="feature-svg"/>
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                Robustness
+                            </div>
+                            <div class="feature-desc">
+                                Ensure robustness through rigorous testing and validation processes, ensuring reliable performance in detecting a wide range of retinal diseases.
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="newsletter-container" id="contact"  style="scroll-behavior: smooth;">
+
+        <!-- footer -->
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="comp-logo">
+                    <a href="#" class="logo-link">
+                        <img src="{{ url_for('static', filename='./img/StudySyn.svg') }}" alt="">
+                            REDD
+                    </a> <br>
+                    <p class="filler-text" style="padding-left: 3rem;">Connect with us: </p>
+                        <div class="socials" style="padding-left: 3rem;">
+                            <a href="#" class="socials-link">
+                                <img src="{{ url_for('static', filename='./img/instagram.svg') }}" alt="" class="socials-icons">
+                            </a>
+                            <a href="#" class="socials-link">
+                                <img src="{{ url_for('static', filename='./img/linkedin.svg') }}" alt="" class="socials-icons">
+                            </a>
+                            <a href="#" class="socials-link">
+                                <img src="{{ url_for('static', filename='./img/Microsoft.svg') }}" alt="" class="socials-icons">
+                            </a>
+                            <a href="#" class="socials-link">
+                                <img src="{{ url_for('static', filename='./img/twitter.svg') }}" alt="" class="socials-icons">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-grid">
+                    
+                            <!-- column 2 --> 
+                    <div class="footer-grid-colums">
+                                <div class="footer-grid-heading">
+                                About us
+                                </div>
+                                <ul class="footer-link-list">
+                                    <li>
+                                        <a href="#" class="footer-link">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Invester</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">labs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Prees</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Blogs</a>
+                                    </li>
+                                </ul>
+                    </div>
+                            <!-- column 3 -->
+                    <div class="footer-grid-colums">
+                                <div class="footer-grid-heading">
+                                    Support
+                                </div>
+                                <ul class="footer-link-list">
+                                    <li>
+                                        <a href="#" class="footer-link">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Chart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">FAQS</a>
+                                    </li>
+                                </ul>
+                    </div>
+                            <!-- column 4 -->
+                    <div class="footer-grid-colums">
+                                <div class="footer-grid-heading">
+                                    Legal
+                                </div>
+                                <ul class="footer-link-list">
+                                    <li>
+                                        <a href="#" class="footer-link">Terms of service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Cookies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Settings</a>
+                                    </li>
+                                </ul>
+                    </div>
+
+                </div>     
+        </footer>
+            <div class="footer-copy-right">
+                @ 2024 - Present REDD. All rights reserved.
+            </div>
+        </div>
+</body>
+</html>
